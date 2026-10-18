@@ -26,7 +26,7 @@ img {
 }
 
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: auto;
 }
@@ -41,8 +41,8 @@ img {
     display: flex; 
 }
 
-
 .topbar-inner {
+    /* width : 400vh; */
     min-height: 42px;
     display: flex;
     align-items: center;
@@ -740,8 +740,10 @@ img {
 }
 
 .service-image-grid img {
-    height: 150px;
+    height: 110px;
+    width: 40%;
     object-fit: cover;
+    border-radius: 150px;
 }
 
 .service-image-grid h4 {
